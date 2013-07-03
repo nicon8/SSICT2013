@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BasicComponentActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="textView_text">Hello world!</string>
+	<string name="country_prompt">Choose a country</string>
+	
+	<string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+    
+    <string name="radio_group_snack">Snack</string>
+    <string name="radio_group_selection">"You have selected: "</string>
+    <string name="radio_group_none">(none)</string>
+    <string name="radio_group_1_breakfast">Breakfast</string>
+    <string name="radio_group_1_lunch">Lunch</string>
+    <string name="radio_group_1_dinner">Dinner</string>
+    <string name="radio_group_1_all">All of them</string>
+    <string name="radio_group_1_selection">You have selected: (none)</string>
+    <string name="radio_group_1_clear">Clear</string>
+    <string name="controls_1_radiobutton_1">RadioButton 1</string>
+    <string name="controls_1_radiobutton_2">RadioButton 2</string>
+    
+    <string name="clear_button">Clear</string>
+    
+    <string name="btn_go">Go!</string>
+</resources>
