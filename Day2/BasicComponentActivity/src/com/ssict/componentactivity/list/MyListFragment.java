@@ -1,4 +1,4 @@
-package com.sscit.componentactivity.list;
+package com.ssict.componentactivity.list;
 
 import android.app.ListFragment;
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package com.sscit.componentactivity.radio;
+package com.ssict.componentactivity.radio;
 
 import com.sscit.componentactivity.R;
 

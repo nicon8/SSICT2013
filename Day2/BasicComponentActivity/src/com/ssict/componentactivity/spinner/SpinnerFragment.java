@@ -35,7 +35,6 @@ public class SpinnerFragment extends Fragment {
 		addItemsOnSpinner2();
 		addListenerOnButton();
 		addListenerOnSpinnerItemSelection();
-		
 		setText("Fragment");
 	  }
 	

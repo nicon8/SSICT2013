@@ -1,6 +1,9 @@
-package com.sscit.componentactivity;
+package com.ssict.componentactivity;
 
-import com.sscit.componentactivity.button.ButtonFragment;
+import com.sscit.componentactivity.R;
+import com.ssict.componentactivity.button.ButtonFragment;
+import com.ssict.componentactivity.canvas.CanvasFragment;
+
 import android.app.Activity;
 import android.app.Fragment;
 import android.os.Bundle;
@@ -13,7 +16,7 @@ public class ContainerActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_container);
 		if (savedInstanceState == null) {
-	        Fragment fg = new ButtonFragment();
+	        Fragment fg = new CanvasFragment();
 	        getFragmentManager().beginTransaction().add(android.R.id.content, fg)
 	            .commit();
 	    }

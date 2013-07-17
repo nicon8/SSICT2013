@@ -1,4 +1,4 @@
-package com.sscit.componentactivity.button;
+package com.ssict.componentactivity.button;
 
 import com.sscit.componentactivity.R;
 
@@ -22,6 +22,10 @@ public class ButtonFragment extends Fragment {
 	private final int BEAR = 3;
 	private int currentImage = MONKEY;
 
+	public ButtonFragment() {
+		super();
+	}
+	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
